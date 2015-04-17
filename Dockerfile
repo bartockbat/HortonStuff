@@ -24,7 +24,7 @@ RUN yum -y install iptables
 RUN yum -y update openssl
 RUN yum -y update nss
 
-ADD HortonIPTables.txt /home/
+#ADD HortonIPTables.txt /home/
 
 ADD directories.sh /home/
 
