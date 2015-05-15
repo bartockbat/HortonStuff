@@ -1,4 +1,5 @@
 #Apache Hadoop 2.7.0 Docker image
+This is a non-working Hadoop for a RHEL container - it requires systemd which does not work correctly
 
 _Note: this is the master branch - for a particular Hadoop version always check the related branch_
 
