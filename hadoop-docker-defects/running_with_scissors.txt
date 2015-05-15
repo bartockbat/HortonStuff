@@ -1,0 +1,5 @@
+sudo docker run  --privileged=true -it -v /var/run/dbus:/var/run/dbus -v /run/systemd:/run/systemd -v /usr/bin/systemctl:/usr/bin/systemctl -v /etc/systemd/system:/etc/systemd/system -v /lib64:/lib64 fed_sysd bash
+#RUN service sshd start && $HADOOP_PREFIX/etc/hadoop/hadoop-env.sh && $HADOOP_PREFIX/sbin/start-dfs.sh && $HADOOP_PREFIX/bin/hdfs dfs -mkdir -p /user/root
+#RUN service sshd start && $HADOOP_PREFIX/etc/hadoop/hadoop-env.sh && $HADOOP_PREFIX/sbin/start-dfs.sh && $HADOOP_PREFIX/bin/hdfs dfs -put $HADOOP_PREFIX/etc/hadoop/ input
+
+#CMD ["/etc/bootstrap.sh", "-d"]
